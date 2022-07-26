@@ -91,6 +91,7 @@ html {
 
 .mode1 {
   transition: 0.5s;
+  box-shadow: 0 6px 18px 4px rgb(3 1 1 / 15%);
   width: 100vw;
   height: 12vh;
   background-color: rgb(255, 255, 255);
