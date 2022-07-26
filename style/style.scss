@@ -1,0 +1,240 @@
+@import "./defaults";
+@import "./navigation";
+@import "./homepage";
+@import "./form";
+@import "./reviews";
+@import "./sliders";
+
+
+.about-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15vw;
+}
+.about-main .texts{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40vw;
+    padding-left: 8vw ;
+    // align-items: center;
+}
+// .aa{
+    // height: 100vh;
+    // width: auto;
+     .about-main img{
+        width: 40vw;
+        min-height: 20vh;
+     }
+// }
+.about-main .texts h1{
+    font-size: 3vw;
+}
+.about-main .texts p{
+    font-size: 2.4vh;
+    padding-bottom: 23px;
+    padding-bottom: 23px;
+}
+.about-main .texts .button-div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3vw;
+}
+.button-div button{
+    padding: 17px 10px;
+    box-shadow: 0 7px 4px rgb(155 63 5 / 45%);
+    color: #340e0e;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+.about-main .texts span{
+    // padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.gap1{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background-color: rgb(205, 80, 49);
+}
+
+
+.footers{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(54, 54, 60);
+}
+.footdiv1{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footlogo{
+        height: 6vw;
+        width: auto;
+        position: relative;
+}
+.map{
+    // padding-top: 40px;
+    overflow:hidden;
+    // background: rgba(37, 36, 36, 0.352);
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(26, 26, 34, 0.687);
+    // display: flex;
+    // flex-direction: column;
+
+    // padding-bottom:56.25%;
+
+    // position:relative;
+
+    // height:0;
+}
+.map iframe{
+    max-height: 25vh;
+    width: 40vw;
+    overflow: hidden;
+    padding: 15px;
+    background: rgba(37, 36, 36, 0.352);
+    z-index: 5;
+    opacity: 0.985;
+
+}
+.footdiv2{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 64px;
+        
+}  
+#footlogo2{
+    font-family:'Poppins',sans-serif;
+    font-size: 6vw;
+    color: white;
+    }          
+            
+.footerdiv3{
+    margin-top: 10vh;
+}
+
+
+
+
+
+.footdiv4{
+    position: absolute;
+    height: 4vh;
+    width: 100%;
+    padding-top: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+                
+.footdiv4 span{
+    padding: 0px 20px;
+    font-size: 3vh;
+    color: white;
+    }   
+
+    // .footdiv3{
+    //                 height: 10vh;
+    //                 width:100vw;
+    //                 font-size: 2.5vh;
+    //                 color: #ffffff;
+    //                 // @include flex-centre();
+    //                 display: flex;
+    //                 justify-content: center;
+    //                 // flex-wrap: wrap;
+    // }
+.p1{
+    width: 99vw;
+    margin-top: 4vh;
+    color: white;
+    font-size: 3.4vh;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #1f334ee0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .footer{
+
+//     height: 60vh;
+//     width: 100vw;
+//     background-color: rgb(54, 54, 60);
+    
+    
+//         .footdiv2{
+//             height: 15vh;
+//             width: 100vw;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             padding-top: 64px;
+    
+             
+//            
+//                 // top:4vh;
+//             }
+//             #footlogo2{
+//                 font-size: 6vw;
+//                 font-family:'Poppins',sans-serif;
+//                 color: white;
+//                      }
+
+//                 }
+//         .footdiv3{
+//             height: 10vh;
+//             width:100vw;
+//             font-size: 2.5vh;
+//             color: #ffffff;
+//             // @include flex-centre();
+//             display: flex;
+//             justify-content: center;
+//             // flex-wrap: wrap;
+//             .p1{
+//                 width: 50vw;
+//                 padding-top: 4vw;
+//             }
+//         }   
+//         .footdiv4{
+//             height: 4vh;
+//             width: 100%;
+//             padding-top: 12vw;
+//             display: flex;
+//             justify-content: center;
+//             flex-wrap: wrap;
+
+//         }
+//         .footdiv4 span{
+//             padding: 0px 20px;
+//             font-size: 3vh;
+//             color: white;
+//         }                 
+
+// }
+

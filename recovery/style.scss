@@ -1,0 +1,135 @@
+@import "./defaults";
+@import "./navigation";
+@import "./homepage";
+
+.home{
+    height: 100vh;
+    
+}
+.about-main{
+    height: 80vh;
+    width: 100vw;
+    /* margin-top: 20%; */
+    /* margin-left: 60%; */
+    // background-image: url(/img/Front\ car-pana.svg);
+    .texts{
+        position: absolute;
+        top: 36vh;
+        left: 8vw;        // @include flex-centre();
+        height: 50vh;
+        width: 40vw;
+        max-width: 42vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        h1{
+            font-size: 5rem;
+            // position: absolute;
+    //     top: 32vh;
+    //     left: 8vw;
+    //     font-size: 5rem;
+            z-index: -2;
+    //     max-width: 42vw;
+        }
+        p{
+                // position: absolute;
+                padding-top: 12px;
+            //     // left: 8vw;
+                font-size: 2rem;
+                z-index: -2;
+            //     max-width: 40vw; 
+            // }
+        }
+        .button-div{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top:5vh;
+
+            span{
+                border: 2px solid black;
+                padding: 10px;
+                font-size: 2rem;
+                
+                
+            }
+            .book-now{
+                position: relative;
+                left: 2.5vw;
+            }
+            
+        }
+    
+    
+        }
+    .img-home{
+        @include flex-centre();
+        position: relative;
+        max-width: 38vw;
+        max-height: auto;
+        top:28vh;
+        left: 52vw;
+        z-index: -1;
+
+    }
+}
+
+
+
+
+
+
+
+
+.sec2{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.38);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .slider-container{
+        height: 90vh;
+        width: 100vw;
+        // background-color: rgba(105, 114, 15, 0.848);
+        background-image: url(/img/car_slide/neon-city-skyline-cityscape-digital-art-landscape-uhdpaper.com-hd-6.1052.jpg);
+        // background-color: rgba(250, 250, 250, 0.5);
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.751);
+        @include flex-centre();
+        background-attachment: fixed;
+        padding-top: 15vh;
+        // -webkit-filter: blur(8px);
+ 
+    }
+    .slide-active{
+        
+        height: 45vh;
+        width: 50vw;
+        // background-color: rgba(35, 46, 146, 0.887);
+        background-image: url('/img/car_slide/audi.jpg');      
+        background-attachment:scroll;
+        // background-position: 70% 50%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        ;
+        
+    }
+    
+}
+
+
+
+
+
+
+.sec3{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    
+                        
+    }

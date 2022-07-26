@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family:'Poppins',sans-serif;
+ }
+ nav1 {
+    color: rgb(233, 159, 70);
+    
+ }
+ a{
+    color: rgb(233, 159, 70);
+}
+
+ html {
+    font-size: 62.5%;
+    
+        }
+
+@mixin flex-centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}        
+$font-size1: 1rem;        
+$font-size2: 1.5rem;        
+$font-size3: 2rem;        
+$font-size5: 2.5rem;     
+$font-size5: 3rem;
+
+        
+        
+
+
+
+    
